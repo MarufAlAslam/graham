@@ -1,0 +1,44 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* upcoming */
+.upcoming {
+    min-height: 100vh;
+    background: url("../img/events/events-image-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-brown {
+    color: #A39473;
+    font-size: 60px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.svg {
+    width: 30px;
+    vertical-align: middle !important;
+}
+
+.upcoming .text-end a {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 767px) {
+    .upcoming {
+        padding-top: 100px;
+        background-size: 100% 300px;
+    }
+}
