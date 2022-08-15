@@ -35,10 +35,27 @@
     align-items: center;
 }
 
+a.text-brown.fs-20.text-decoration-none {
+    font-size: 20px;
+}
 
 @media screen and (max-width: 767px) {
+    .upcoming .container {
+        padding: 0 20px;
+    }
+
     .upcoming {
         padding-top: 100px;
+        padding-bottom: 50px;
         background-size: 100% 300px;
+    }
+
+    .text-brown {
+        color: #A39473;
+        font-size: 30px;
+    }
+
+    .col-md-7.m-auto.p-5 {
+        padding: 40px 20px !important;
     }
 }
